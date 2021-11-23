@@ -1,0 +1,5 @@
+mutex for information between processes 
+
+if somwthing is stuck its because errors 
+
+Task is build over multhithreads as abstruction

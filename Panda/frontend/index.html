@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>AutoComplete</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+      #searchButton{
+        background-color: #b8d8f5;
+      }
+      body {
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: large;
+          background-color: gainsboro;
+      }
+      #result{
+          list-style: none;
+          
+          background-color: white;
+      }
+      #searches ul{
+        list-style: none;
+        border: 2px black solid;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: xx-large;
+      }
+    </style>
+  </head>
+  <body onload="GetJobTitles()">        
+    <form autocomplete="off" class="container">
+        <br>
+        <div class="autocomplete row">
+          <input id="jobTitle" class="col" type="text" name="jobTitle" placeholder="Enter a job title" onkeyup=showResults(this.value)>
+          <button id="searchButton" class="col" type="button" onclick="getJobs()">Search</button>
+        </div>         
+        <div id="result" class="row" style="width: 51%;"></div>
+        <div id="searches" class="row" style="width: 100%;"></div>
+    </form>
+   
+       <script src="app.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>

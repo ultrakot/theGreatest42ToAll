@@ -1,0 +1,6 @@
+C:\Users\Noam Ronen\source\repos\Windows\Windows\bin\Debug\Windows.exe.config
+C:\Users\Noam Ronen\source\repos\Windows\Windows\bin\Debug\Windows.exe
+C:\Users\Noam Ronen\source\repos\Windows\Windows\bin\Debug\Windows.pdb
+C:\Users\Noam Ronen\source\repos\Windows\Windows\obj\Debug\Windows.csprojAssemblyReference.cache
+C:\Users\Noam Ronen\source\repos\Windows\Windows\obj\Debug\Windows.exe
+C:\Users\Noam Ronen\source\repos\Windows\Windows\obj\Debug\Windows.pdb
